@@ -7,7 +7,7 @@ pipeline {
     } 
     stage("Unit test") {
       steps {
-        sh "python <your_test_script>.py" 
+        sh "python test.py" 
       }
     }
   }
